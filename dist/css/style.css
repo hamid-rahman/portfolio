@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 .navbar-brand img{
     width: 150px;
     height: 37px;
@@ -15,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 623px;
     position: relative;
 }
 /* .banner-main{
@@ -101,8 +102,6 @@ height: 50px;
 .d-inline{
     display: table;
 }
-
-
 .banner-inner-content{
     margin-top: 50px;
 }
@@ -114,28 +113,17 @@ height: 50px;
     color: white;
     line-height: 50px;
 }
-.btn-section .def-box a{
+.banner-inner-content .btn-section a:hover{
     text-decoration: none;
-    background: transparent;
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+    transition: all linear .3s;
     padding: 10px 25px;
     border-radius: 50px;
-    border: 1px solid white;
-    border-left: 1px solid #cb26b6;
-    border-right: 1px solid #f8b127;
+    color: white;
     line-height: 50px;
-    margin: 0 10px;
-    color: #CB26B6;
-    color: transparent;
-    background: -webkit-linear-gradient(315deg, #F8B127, #CB26B6);
-    background: -o-linear-gradient(315deg, #F8B127, #CB26B6);
-    background: linear-gradient(135deg, #F8B127, #CB26B6);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-weight: 700;
 }
 .btn-section .def-box a{
     text-decoration: none;
-    background: transparent;
     padding: 10px 25px;
     border-radius: 50px;
     border: 1px solid white;
@@ -143,7 +131,6 @@ height: 50px;
     border-right: 1px solid #f8b127;
     line-height: 50px;
     margin: 0 10px;
-    color: #CB26B6;
     color: transparent;
     background: -webkit-linear-gradient(315deg, #F8B127, #CB26B6);
     background: -o-linear-gradient(315deg, #F8B127, #CB26B6);
@@ -160,10 +147,12 @@ height: 50px;
     color: #424242;
     margin-top: -3px;
     margin-bottom: 26px;
+    font-family: "Josefin Sans";
 }
 .banner-inner-content h1 span{
     color: #CB26B6;
     color: transparent;
+    font-family: "Josefin Sans";
     background: -webkit-linear-gradient(315deg, #F8B127, #CB26B6);
     background: -o-linear-gradient(315deg, #F8B127, #CB26B6);
     background: linear-gradient(135deg, #F8B127, #CB26B6);
@@ -177,5 +166,274 @@ height: 50px;
     font-weight: 500;
     color: #424242;
     margin-bottom: 29px;
+    font-family: "Josefin Sans";
 }
 /* banner end */
+
+/* inner social */
+/* #social{
+
+} */
+#banner{
+    position: relative;
+}
+.inner-social{
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
+.inner-social a{
+    display: block;
+    margin: 15px 0;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #CB26B6, #F8B127);
+    transition: all linear .3s;
+}
+.inner-social a:hover{
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+    transition:all linear .3s;
+}
+/* inner social */
+
+
+
+/* about section */
+#about-banner{
+    padding-top: 50px;
+    padding: 50px 0 0;
+    background: #d8dbf9;
+    background: linear-gradient(241deg,#d8dbf9 0%, #ffffff 40%, #fce4f8 80%);
+}
+.about-content h1 span{
+    color: transparent;
+    font-family: "Josefin Sans";
+    background: -webkit-linear-gradient(315deg, #F8B127, #CB26B6);
+    background: -o-linear-gradient(315deg, #F8B127, #CB26B6);
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+}
+.about-common h1 span{
+    color: transparent;
+    font-family: "Josefin Sans";
+    background: -webkit-linear-gradient(315deg, #F8B127, #CB26B6);
+    background: -o-linear-gradient(315deg, #F8B127, #CB26B6);
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+}
+.about-content p{
+    text-align: justify;
+    color: #424242;
+}
+.about-content .about-heading{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    color: #323232;
+    padding-bottom: 16px;
+    margin-bottom: 5px;
+}
+.about-content{
+    margin-top: 50px;
+}
+.about-content .about-heading img{
+    position: absolute;
+    width: 100px;
+    height: 13px;
+}
+.about-image img{
+    width: 350px;
+    height: 450px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+}
+#about-main{
+    margin-top: 70px;
+    /* background: linear-gradient(241deg,#d8dbf9 0%, #ffffff 40%, #fce4f8 80%); */
+
+}
+/* about section */
+
+
+/* project */
+#project{
+    background: url('../images/fun-fact-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.project-inner-content{
+    color: white;
+    text-align: center;
+    margin-top: 66px;
+}
+.project-inner-content h2{
+    margin: 10px 0 5px 0;
+}
+/* project end */
+
+/* bio */
+#bio{
+    position: relative;
+    background: #d8dbf9;
+    height: 550px;
+    background: linear-gradient(241deg,#d8dbf9 0%, #ffffff 40%, #fce4f8 80%);
+}
+.single-box-main{
+position: relative;
+width: calc(35% - 15px / 2);
+text-align: center;
+padding: 30px;
+background: #fff;
+/* box-shadow: 0px 5px 30px -5px rgb(0 0 0 / 10%); */
+border-radius: 10px;
+margin-bottom: 30px;
+}
+.sec-single-box-main{
+position: relative;
+width: calc(35% - 15px / 2);
+text-align: center;
+padding: 30px;
+background: #fff;
+/* box-shadow: 0px 5px 30px -5px rgb(0 0 0 / 10%); */
+border-radius: 10px;
+margin-bottom: 30px;
+}
+
+.sec-single-box-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #424242;
+    margin: 20px 0 10px 0;
+}
+.sec-single-box-content span{
+    padding: 2px 10px;
+    border-radius: 50px;
+    font-size: 13px;
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+}
+.sec-single-box-content p{
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: -7px;
+    text-align: center;
+}
+.single-box-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #424242;
+    margin: 20px 0 10px 0;
+}
+.single-box-content span{
+    padding: 2px 10px;
+    border-radius: 50px;
+    font-size: 13px;
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+}
+.single-box-content p{
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: -7px;
+    text-align: center;
+}
+
+body{
+    position: relative;
+}
+.two-item{
+    position: absolute;
+    left: 340px;
+    top: 350px;
+}
+
+/* bio */
+
+/* about-main-bio */
+.bio-content h4{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: #17181c;
+}
+.about-common {
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.bio-content{
+    text-align: left;
+}
+.bio-content h4{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: #17181c;
+}
+.bio-content p{
+    margin-bottom: 30px;
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #777;
+    font-family: "Montserrat";
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* .about-info */
+.about-info ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.about-info ul li{
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(20, 17, 17);
+    font-family: "Montserrat";
+    list-style: none;
+}
+.about-info {
+    position: relative;
+    
+}
+.about-info ul li span{
+    position: absolute;
+    right: 0;
+    color: #777;
+    left: 80px;
+}
+/* .about-info ul li b{
+    margin-right: 10px;
+    color: #17181c;
+    font-weight: 600;
+    right: -14px;
+} */
+.about-info span{
+    color: #000;
+}
+.progress-main .single-progress{
+    margin-bottom: 30px;
+}
+/* about-main-bio */
