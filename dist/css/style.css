@@ -445,6 +445,10 @@ body{
 /* about-main-bio */
 
 /* .achievement part */
+#achievement{
+    background: #d8dbf9;
+    background: linear-gradient(241deg,#d8dbf9 0%, #ffffff 40%, #fce4f8 80%);
+}
 .achievement-left{
     margin-right: 30px;
 }
