@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand:wght@400;500&display=swap');
 .navbar-brand img{
     width: 150px;
     height: 37px;
@@ -209,6 +210,7 @@ height: 50px;
 #about-banner{
     padding-top: 50px;
     padding: 50px 0 0;
+    height: 625px;
     background: #d8dbf9;
     background: linear-gradient(241deg,#d8dbf9 0%, #ffffff 40%, #fce4f8 80%);
 }
@@ -436,4 +438,79 @@ body{
 .progress-main .single-progress{
     margin-bottom: 30px;
 }
+
+/* .bg-dark{
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+} */
 /* about-main-bio */
+
+/* .achievement part */
+.achievement-left{
+    margin-right: 30px;
+}
+.achievement-right{
+    margin-left: 30px;
+}
+.achievement-left h4{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Quicksand";
+    color: #17181c;
+}
+
+.achievement-left h5{
+    margin-top: 15px;
+    color: #799ffe;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: "Quicksand";
+
+}
+.achievement-left p{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #777;
+    font-family: "Quicksand";
+    text-align: justify;
+}
+.timeline-info span{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: "Quicksand";
+    text-transform: uppercase;
+}
+.timeline-info{
+    position: relative;
+}
+.timeline-info span::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    border-radius: 100%;
+    border: 2px solid linear-gradient(135deg, #F8B127, #CB26B6);
+    position: absolute;
+    left: -22px;
+    top: 5px;
+    background: linear-gradient(135deg, #F8B127, #CB26B6);
+}
+.achievement-right{
+
+}
+/* .achievement part */
+
+/* footer */
+#footer{
+    background: linear-gradient(241deg,#d8dbf9 0%, #ffffff 40%, #fce4f8 80%);
+    height: 50px;
+}
+#footer .container p{
+    padding-top: 16px;
+    margin-top: 20px;
+}
+/* footer */
